@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MiddDev/Sessions/01_07 -.md",
+                "file": "MiddDev/MiddDev - Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MiddDev/Sessions/01_07 -.md",
+                "file": "MiddDev/MiddDev - Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MiddDev/Sessions/01_07 -.md"
+                "file": "MiddDev/MiddDev - Home.md"
               }
             }
           }
@@ -159,13 +160,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "0e1e14ad4ce10a3a",
+  "active": "49cf7ab0cbc5561f",
   "lastOpenFiles": [
+    "MiddDev/Sessions/01_07 -.md",
     "MiddDev/Lesson Plans/L3 - React.md",
     "Pasted image 20240105094505.png",
     "MiddDev/Projects/MiddDash/MiddDash.md",
     "MiddDev/MiddDev - Home.md",
-    "MiddDev/Sessions/01_07 -.md",
     "MiddDev/Sessions",
     "MiddDev/Lesson Plans/L5 - Databases.md",
     "MiddDev/Lesson Plans/L4 - API development.md",
