@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
+                "file": "MiddDev/Lesson Plans/L3 - React.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
+                "file": "MiddDev/Lesson Plans/L3 - React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
+                "file": "MiddDev/Lesson Plans/L3 - React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MiddDev/Lesson Plans/L2 - Foundations of JS.md"
+                "file": "MiddDev/Lesson Plans/L3 - React.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "0e1e14ad4ce10a3a",
   "lastOpenFiles": [
+    "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
+    "MiddDev/Lesson Plans/L3 - React.md",
     "MiddDev/Attachments/Pasted image 20240104194003.png",
     "gitignore~",
     "gitignore",
     "MiddDev/Lesson Plans/L1 - Intro to Git.md",
-    "MiddDev/MiddDev - Home.md",
-    "MiddDev/Lesson Plans/L2 - Foundations of JS.md"
+    "MiddDev/MiddDev - Home.md"
   ]
 }

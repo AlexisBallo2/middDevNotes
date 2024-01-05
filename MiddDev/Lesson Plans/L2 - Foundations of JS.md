@@ -70,4 +70,3 @@ In this object we have an integer for price, a string for currency and color, an
 # Functions
 
 
-
