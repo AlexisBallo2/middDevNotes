@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Plans/L2 - Foundations of JS.md",
+                "file": "MiddDev - Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Plans/L2 - Foundations of JS.md",
+                "file": "MiddDev - Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lesson Plans/L2 - Foundations of JS.md"
+                "file": "MiddDev - Home.md"
               }
             }
           }
@@ -198,8 +197,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21e580540a481741",
+  "active": "2fc649e90fbfeabd",
   "lastOpenFiles": [
+    "Lesson Plans/L2 - Foundations of JS.md",
     "Attachments/Pasted image 20240104194003.png",
     "MiddDev - Home.md",
     "Projects/MiddDash/MiddDash.md",
@@ -208,7 +208,6 @@
     "Projects/MiddDash/Arch Overview.md",
     "Projects/MiddDash/Architecture Overview.canvas",
     "Projects/MiddDash/Architecture Overview.md",
-    "Lesson Plans/L2 - Foundations of JS.md",
     "Attachments/Pasted image 20240101180551.png",
     "Attachments",
     "Projects/MiddDash/Untitled/Untitled",
