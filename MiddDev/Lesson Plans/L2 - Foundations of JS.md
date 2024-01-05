@@ -38,10 +38,25 @@ Somewhere in the console you should see:
 note that it does this twice. We can ignore this for now. Only pay attention to what is in between the running and finished identifiers. 
 
 ## Data types
-This code block assigns the integer value `10` to a variable `x`. There are many types of data structures that we can use in JS, such as integers, floats (decimals), strings, objects, arrays, etc. 
+This code block assigns the integer value `10` to a variable `x`. There are many types of data structures that we can use in JS, such as integers, floats (decimals), strings, arrays, etc. 
 
 ```js
-let petType 
+// string
+let petType = "dog"
+
+// integer
+let price = 10
+
+// array
+let names = ["joe", "mama"]
+//
+```
+
+We can also use objects to package multiple variables into a single variable. Consider the example object below:
+```js
+let jacket = {
+	price: 10, curre
+}
 ```
 
 >Challenge:
