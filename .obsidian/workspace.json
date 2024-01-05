@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/MiddDev - Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 450.5
+    "width": 260.5
   },
   "right": {
     "id": "cc9768a85c04c506",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/MiddDev - Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/MiddDev - Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md"
+                "file": "MiddDev/MiddDev - Home.md"
               }
             }
           }
@@ -161,8 +161,11 @@
   },
   "active": "0e1e14ad4ce10a3a",
   "lastOpenFiles": [
-    "MiddDev/MiddDev - Home.md",
+    "MiddDev/Lesson Plans/L5 - Databases.md",
+    "MiddDev/Lesson Plans/L4 - API development.md",
     "MiddDev/Lesson Plans/L3 - React.md",
+    "Pasted image 20240105093618.png",
+    "MiddDev/MiddDev - Home.md",
     "Test",
     "MiddDev/Attachments/Pasted image 20240104201649.png",
     "MiddDev/Lesson Plans/L2 - Foundations of JS.md",

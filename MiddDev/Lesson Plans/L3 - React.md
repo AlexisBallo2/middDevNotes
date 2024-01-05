@@ -12,13 +12,32 @@ Here we have multiple components:
 2. BLUE - Search component. Packages up the searching functionality and separates it from the code to display the searched items. 
 3. GREEN - Display component. Only designed to show the items. 
 
+We can break it even further down: 
+![[Pasted image 20240105093618.png]]
 ### Try it yourself: 
 In `app/reactIntro/page.js` you will find a `reactIntro` function which returns a div with "hello", and another component `C1`. As declared above, `C1` returns a similar div, but returns "testing". When we navigate to https://localhost:3000/reactIntro we see them composed and acting as 1 component. 
 
 > Challenge:
 > Make a new component titled `C2` (note that the component name MUST BEGIN WITH AN UPPERCASE LETTER) and render it inside of `C1`
 
-### Props vs State
+### State
 
+State allows us to manage variables and the "state" of the application at a point in time. The most common way we will manage state is with the `useState` hook provided to us by our nextjs framework. Consider the code block below
+
+```js
+export default function SearchBar() {
+	const [searchQuery, setSearchQuery] = useState("")
+	return (
+		<div>
+			<input value = {searchQuery} onChange = {(e) => setSearchQuery(e.target.value)} />
+		</div>
+	)
+}
+```
+
+
+### Props vs State
+Props allow us to pass information from one component to another. 
+State is the current information stored only in that component. 
 
 
