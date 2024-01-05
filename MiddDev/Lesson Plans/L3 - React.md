@@ -13,7 +13,7 @@ Here we have multiple components:
 3. GREEN - Display component. Only designed to show the items. 
 
 ### Try it yourself: 
-
+In `app/reactIntro/page.js` you will find a 
 
 ### Props vs State
 
