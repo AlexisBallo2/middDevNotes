@@ -40,5 +40,6 @@ Somewhere in the console you should see:
 
 This code block assigns the integer value `10` to a variable `x`. There are many types of data structures that we can use in JS, such as integers, floats (decimals), strings, objects, arrays, etc. 
 
-
+## Challenge:
+Create variables titled name, age, family which contain 
 
