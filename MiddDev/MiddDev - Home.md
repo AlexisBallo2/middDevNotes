@@ -15,3 +15,6 @@ Welcome to the index page of MiddDev. Here you will be able to find information 
 
 # Active Projects
 [[MiddDash]]
+
+# Sessions and meeting notes
+[[01_07 -]]

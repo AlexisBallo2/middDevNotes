@@ -40,4 +40,4 @@ export default function SearchBar() {
 Props allow us to pass information from one component to another. 
 State is the current information stored only in that component. 
 
-
+![[Pasted image 20240105094505.png]]
