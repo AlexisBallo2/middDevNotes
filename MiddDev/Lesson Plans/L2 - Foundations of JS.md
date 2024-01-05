@@ -66,6 +66,8 @@ In this object we have an integer for price, a string for currency and color, an
 >Challenge:
 >Create an object titled name, age, family which contain your name, your age, and a few members of your family. Log them to the console to confirm!
 
+# Conditionals
+# Functions
 
 
 
