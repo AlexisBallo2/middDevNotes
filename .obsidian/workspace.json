@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 450.5
   },
   "right": {
     "id": "cc9768a85c04c506",
@@ -143,11 +143,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "0e1e14ad4ce10a3a",
+  "active": "15f8d90d090bb37a",
   "lastOpenFiles": [
+    "Test",
     "Pasted image 20240104201649.png",
     "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
     "MiddDev/Lesson Plans/L3 - React.md",
