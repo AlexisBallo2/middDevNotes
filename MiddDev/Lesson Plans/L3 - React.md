@@ -16,7 +16,9 @@ Here we have multiple components:
 In `app/reactIntro/page.js` you will find a `reactIntro` function which returns a div with "hello", and another component `C1`. As declared above, `C1` returns a similar div, but returns "testing". When we navigate to https://localhost:3000/reactIntro we see them composed and acting as 1 component. 
 
 > Challenge:
-> Make a new component titled `C2` (note that the component name MUST BEGIN WITH AN UPPERCASE LETTE)
+> Make a new component titled `C2` (note that the component name MUST BEGIN WITH AN UPPERCASE LETTER) and render it inside of `C1`
+
 ### Props vs State
+
 
 
