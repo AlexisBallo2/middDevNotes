@@ -35,6 +35,10 @@ Now navigate to https://localhost:3000/intro. Open the developer console **add d
 Somewhere in the console you should see:
 
 ![[Pasted image 20240104194003.png]]
+> note that it does this twice. We can ignore this for now. Only pay attention to what is in between the running and finished identifiers. 
+
+
+This code block assigns the integer value `10` to a variable `x`. There are many types of data structures that we can use in JS, such as integers, floats (decimals), strings, objects, arrays, etc. 
 
 
 
