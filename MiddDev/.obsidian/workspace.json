@@ -56,9 +56,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "21e580540a481741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lesson Plans/L2 - Foundations of JS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/MiddDash/MiddDash.md",
+                "file": "Lesson Plans/L2 - Foundations of JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/MiddDash/MiddDash.md",
+                "file": "Lesson Plans/L2 - Foundations of JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/MiddDash/MiddDash.md"
+                "file": "Lesson Plans/L2 - Foundations of JS.md"
               }
             }
           }
@@ -186,11 +198,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "23a0279836b57d4e",
+  "active": "21e580540a481741",
   "lastOpenFiles": [
     "MiddDev - Home.md",
-    "Lesson Plans/L1 - Intro to Git.md",
     "Projects/MiddDash/MiddDash.md",
+    "Lesson Plans/L1 - Intro to Git.md",
     "Projects/MiddDash/Designs.md",
     "Projects/MiddDash/Arch Overview.md",
     "Projects/MiddDash/Architecture Overview.canvas",
