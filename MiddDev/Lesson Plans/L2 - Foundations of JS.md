@@ -55,12 +55,16 @@ let names = ["joe", "mama"]
 We can also use objects to package multiple variables into a single variable. Consider the example object below:
 ```js
 let jacket = {
-	price: 10, curre
+	price: 10,
+	currency: "usd",
+	color: "red",
+	stores: ['1st street', '3rd ave']
 }
 ```
+In this object we have an integer for price, a string for currency and color, and array of strings for the stores the product is carried in. 
 
 >Challenge:
->Create variables titled name, age, family which contain your name, your age, and a few members of your family. Log them to the console to confirm!
+>Create an object titled name, age, family which contain your name, your age, and a few members of your family. Log them to the console to confirm!
 
 
 
