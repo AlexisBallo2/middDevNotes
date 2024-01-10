@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "22ef691e799cc59b",
+    "id": "99224b6e60afd0d5",
     "type": "split",
     "children": [
       {
-        "id": "a760aaa2437b3c94",
+        "id": "159211ecf671622c",
         "type": "tabs",
         "children": [
           {
-            "id": "0e1e14ad4ce10a3a",
+            "id": "23a0279836b57d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiddDev/Sessions/01_07 -.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49cf7ab0cbc5561f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MiddDev/MiddDev - Home.md",
+                "file": "MiddDev/Lesson Plans/L3 - React.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fb3c086580958075",
+    "id": "2521cddd3052c53f",
     "type": "split",
     "children": [
       {
-        "id": "760a9765f84735d6",
+        "id": "c6189ae87e97582c",
         "type": "tabs",
         "children": [
           {
-            "id": "15f8d90d090bb37a",
+            "id": "c7048ec9adeda700",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "0023ab70621a8864",
+            "id": "7b1f0c8cc5c5006b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "7d793ab250ecbeac",
+            "id": "8e8c61e3ddabf5fd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 300
   },
   "right": {
-    "id": "cc9768a85c04c506",
+    "id": "09ae437e087a7bbb",
     "type": "split",
     "children": [
       {
-        "id": "d5dd3d40c73efe3c",
+        "id": "8ebb9cd402b862d4",
         "type": "tabs",
         "children": [
           {
-            "id": "29bbc6f387fa51cb",
+            "id": "399426376c687dc6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MiddDev/MiddDev - Home.md",
+                "file": "MiddDev/Lesson Plans/L3 - React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +97,19 @@
             }
           },
           {
-            "id": "a7f74f10aae8608d",
+            "id": "dd4e621b0eed8c15",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MiddDev/MiddDev - Home.md",
+                "file": "MiddDev/Lesson Plans/L3 - React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2983214937668cf2",
+            "id": "fa373db77d20c42e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +120,12 @@
             }
           },
           {
-            "id": "616b2e8752c45a6d",
+            "id": "4a382b1d94c9678b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MiddDev/MiddDev - Home.md"
+                "file": "MiddDev/Lesson Plans/L3 - React.md"
               }
             }
           }
@@ -160,23 +147,39 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "49cf7ab0cbc5561f",
+  "active": "23a0279836b57d4e",
   "lastOpenFiles": [
-    "MiddDev/Sessions/01_07 -.md",
-    "MiddDev/Lesson Plans/L3 - React.md",
+    "MiddDev - Home.md",
+    "gitignore",
     "Pasted image 20240105094505.png",
+    "Pasted image 20240105093618.png",
     "MiddDev/Projects/MiddDash/MiddDash.md",
-    "MiddDev/MiddDev - Home.md",
-    "MiddDev/Sessions",
+    "MiddDev/Sessions/01_07 -.md",
+    "MiddDev/Projects/MiddDash",
     "MiddDev/Lesson Plans/L5 - Databases.md",
     "MiddDev/Lesson Plans/L4 - API development.md",
-    "Pasted image 20240105093618.png",
-    "Test",
-    "MiddDev/Attachments/Pasted image 20240104201649.png",
+    "MiddDev/Lesson Plans/L3 - React.md",
     "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
+    "MiddDev/Lesson Plans/L1 - Intro to Git.md",
+    "MiddDev/Attachments/Pasted image 20240104201649.png",
     "MiddDev/Attachments/Pasted image 20240104194003.png",
-    "gitignore~",
-    "gitignore",
-    "MiddDev/Lesson Plans/L1 - Intro to Git.md"
+    "MiddDev/Attachments/Pasted image 20240101180551.png",
+    "MiddDev/Sessions",
+    "MiddDev/Projects",
+    "MiddDev/MiddDev - Home.md",
+    "MiddDev/Lesson Plans",
+    "MiddDev/Attachments",
+    "MiddDev",
+    "Projects/MiddDash/MiddDash.md",
+    "Lesson Plans/L2 - Foundations of JS.md",
+    "Lesson Plans/L1 - Intro to Git.md",
+    "Attachments/Pasted image 20240101180551.png",
+    "Projects/MiddDash/Designs.md",
+    "Projects/MiddDash/Arch Overview.md",
+    "Projects/MiddDash/Architecture Overview.canvas",
+    "Projects/MiddDash/Architecture Overview.md",
+    "Attachments",
+    "Projects/MiddDash/Untitled/Untitled",
+    "Projects/MiddDash/Untitled"
   ]
 }
