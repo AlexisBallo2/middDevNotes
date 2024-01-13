@@ -10,11 +10,7 @@ For any element to be properly turned into website-ready code, it must be wrappe
 Some basic examples are:
 ```
 <div> I am inside a div tag! </div>
-```
-```
 <h1> I am inside a header tag! </h1>
-```
-```
 <p> I am inside a paragraph tag! <p>
 ```
 Already, you might realize that a website where we have all elements inside a single tag would be incredibly boring! This is where NESTING comes in, allowing us to place JSX elements inside of one another.
@@ -23,13 +19,39 @@ Already, you might realize that a website where we have all elements inside a si
 	<h1> I am inside a header tag AND a div tag! </h1>
 <div>
 ```
-IMPORTANT: When nesting elements, there can only ever be ONE SINGLE all-encapsulating tag. React will not render otherwise. 
+IMPORTANT: When nesting elements, there can only ever be ONE SINGLE all-encapsulating tag.
 ```
 <div>
 	<h1> I am inside a header tag AND a div tag! </h1>
 	<p> I am inside a paragraph tag AND a div tag! </p>
 <div>
 ```
+This will not run. We need a tag that contains both div elements:
+```
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+	<p> I am inside a paragraph tag AND a div tag! </p>
+<div>
+
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+	<p> I am inside a paragraph tag AND a div tag! </p>
+<div>
+```
+
+### Functions and Logic
+JSX allows us to add functionality into our website by allowing us to directly render the outcomes of desired functions or other code we've written using the "{}" braces. For example:
+```
+const number = 5
+<div>
+	<h1> This is a number {number} </h1>
+<div>
+
+//Resolves to: "This is a number 5"
+
+```
+
+We can also call functions inside o
 # Thinking in React
 
 ### Components
