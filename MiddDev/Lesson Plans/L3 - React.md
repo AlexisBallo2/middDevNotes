@@ -47,11 +47,30 @@ const number = 5
 	<h1> This is a number {number} </h1>
 <div>
 
-//Resolves to: "This is a number 5"
+//Renders to: "This is a number 5"
 
 ```
 
-We can also call functions inside o
+We can also call functions inside of here as well! Consider a function that adds 2 to any random number between 1-10:
+
+```
+const randNum = Math.floor(Math.random() * 11)
+const addTwo = (randNum) => {
+	return randNum + 2
+}
+
+return(
+	<div>
+		<h1> 
+			This is the result of adding 2 to {randNum}: {addTwo} 
+		</h1>
+	<div>
+)
+
+//If randNum = 7
+//Renders "This is the result of adding 2 to 7: 9"
+```
+Now that we have functionality introduced, there's really no limit on how we can organize our website! This process of introducing OUR OWN code and functionality to JSX brings us into our next topic...
 # Thinking in React
 
 ### Components
