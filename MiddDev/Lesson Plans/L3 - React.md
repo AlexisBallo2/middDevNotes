@@ -5,7 +5,18 @@ Now that we understand the basics of JS, we can start to learn how to display in
 ### Structuring
 At it's core, JSX is a tool that React uses to maintain order in your app. JSX makes up the most "top level" code that we will be writing, it is the skeleton that holds all of the website elements together, telling the computer what goes where, specifies formats, and how each element should interact with one another.
 
-For any element to be properly turned into website-ready code, it must be wrapped in a "tag". Tags are defined as the code wrapped in the "<" ">" braces
+For any element to be properly turned into website-ready code, it must be wrapped in a "tag". Tags are defined as the pairs of "<" ">" braces, with the actual rendered content being in between the pairs. 
+
+Some basic examples are:
+```
+<div> I am inside a div tag! </div>
+```
+```
+<h1> I am inside a header tag! </h1>
+```
+```
+<p> I am inside a paragraph tag! <p>
+```
 
 
 # Thinking in React
