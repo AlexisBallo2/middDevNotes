@@ -12,6 +12,11 @@ Some basic examples are:
 <div> I am inside a div tag! </div>
 <h1> I am inside a header tag! </h1>
 <p> I am inside a paragraph tag! <p>
+
+//Renders:
+//I am inside a div tag!
+//I am inside a header tag!
+//I am inside a paragraph tag!
 ```
 Already, you might realize that a website where we have all elements inside a single tag would be incredibly boring! This is where NESTING comes in, allowing us to place JSX elements inside of one another.
 ```
@@ -39,16 +44,28 @@ This will not run. We need a tag that contains both div elements:
 <div>
 ```
 
+Lastly, for any JSX element that we want to render, it must be added to the "return" statement of our app. In React, this would be the return statement of our "app.js" file. Multi-line JSX elements need to be wrapped in parentheses to render, like so:
+
+```
+return (
+	<div>
+		<h1> I am inside a header tag AND a div tag! </h1>
+		<p> I am inside a paragraph tag AND a div tag! </p>
+	<div>
+)
+
+```
 ### Functions and Logic
 JSX allows us to add functionality into our website by allowing us to directly render the outcomes of desired functions or other code we've written using the "{}" braces. For example:
 ```
 const number = 5
-<div>
-	<h1> This is a number {number} </h1>
-<div>
+return (
+	<div>
+		<h1> This is a number {number} </h1>
+	<div>
+)
 
 //Renders to: "This is a number 5"
-
 ```
 
 We can also call functions inside of here as well! Consider a function that adds 2 to any random number between 1-10:
