@@ -3,9 +3,10 @@ Now that we understand the basics of JS, we can start to learn how to display in
 # JSX
 
 ### Structuring
-At it's core, JSX is a tool that React uses to maintain order in your app. Even if you've never heard of it before, you've likely seen it without realizing it! If you've ever right clicked on a website and selected "Inspect", you will have seen lines of code wrapped in "<"  ">". It is likely you are looking at JSX– for those that know, it is very syntactically similar to HTML. 
+At it's core, JSX is a tool that React uses to maintain order in your app. JSX makes up the most "top level" code that we will be writing, it is the skeleton that holds all of the website elements together, telling the computer what goes where, specifies formats, and how each element should interact with one another.
 
-JSX makes up the most "top level" code that we will be writing, it is the skeleton that holds all of the website elements together, telling the computer what goes where, specify formats, and how each element should interact with one another.
+For any element to be properly turned into website-ready code, it must be wrapped in a "tag". Tags are defined as the code wrapped in the "<" ">" braces
+
 
 # Thinking in React
 
