@@ -3,7 +3,7 @@ Now that we understand the basics of JS, we can start to learn how to display in
 # JSX
 
 ### Structuring
-At it's core, a 
+At it's core, JSX is the language that React uses to indicate where elements should be placed on your website/app.  
 
 
 # Thinking in React
