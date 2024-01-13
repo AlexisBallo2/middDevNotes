@@ -3,7 +3,7 @@ Now that we understand the basics of JS, we can start to learn how to display in
 # JSX
 
 ### Structuring
-At it's core, JSX is the language that React uses to indicate where elements should be placed on your website/app.  
+At it's core, JSX is a tool that React uses to indicate where elements should be placed on your website/app. Even if you've never heard of it before, you've likely seen it without realizing it! If you've ever right clicked on a website and selected "Inspect", you will have seen lines of code wrapped in "<"  ">". It is likely you are seeing JSX– for those that know,  which is syntactically very similar to HTML. 
 
 
 # Thinking in React
