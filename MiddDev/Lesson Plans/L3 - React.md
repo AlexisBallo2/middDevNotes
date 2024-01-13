@@ -17,7 +17,19 @@ Some basic examples are:
 ```
 <p> I am inside a paragraph tag! <p>
 ```
-
+Already, you might realize that a website where we have all elements inside a single tag would be incredibly boring! This is where NESTING comes in, allowing us to place JSX elements inside of one another.
+```
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+<div>
+```
+IMPORTANT: When nesting elements, there can only ever be ONE SINGLE all-encapsulating tag. React will not render otherwise. 
+```
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+	<p> I am inside a paragraph tag AND a div tag! </p>
+<div>
+```
 # Thinking in React
 
 ### Components
