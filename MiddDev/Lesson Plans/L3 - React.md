@@ -18,7 +18,6 @@ Some basic examples are:
 <p> I am inside a paragraph tag! <p>
 ```
 
-
 # Thinking in React
 
 ### Components
