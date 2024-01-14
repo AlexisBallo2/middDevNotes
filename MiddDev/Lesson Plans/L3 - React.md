@@ -2,15 +2,13 @@ Now that we understand the basics of JS, we can start to learn how to display in
 
 # JSX
 
-<<<<<<< HEAD
-=======
 ### Structuring
 At it's core, JSX is a tool that React uses to maintain order in your app. JSX makes up the most "top level" code that we will be writing, it is the skeleton that holds all of the website elements together, telling the computer what goes where, specifies formats, and how each element should interact with one another.
 
 For any element to be properly turned into website-ready code, it must be wrapped in a "tag". Tags are defined as the pairs of "<" ">" braces, with the actual rendered content being in between the pairs. 
 
 Some basic examples are:
-```
+```html
 <div> I am inside a div tag! </div>
 <h1> I am inside a header tag! </h1>
 <p> I am inside a paragraph tag! <p>
@@ -21,7 +19,7 @@ Some basic examples are:
 //I am inside a paragraph tag!
 ```
 Already, you might realize that a website where we have all elements inside a single tag would be incredibly boring! This is where NESTING comes in, allowing us to place JSX elements inside of one another.
-```
+```h
 <div>
 	<h1> I am inside a header tag AND a div tag! </h1>
 <div>
@@ -92,7 +90,6 @@ return(
 **Challenge:** In your "page.js" file, using an object that stores your first name, college year, and hometown, write and render a JSX expression that introduces yourself.
 
 Now that we have functionality introduced, there's really no limit on how we can organize our website! This process of introducing OUR OWN code and functionality to JSX brings us into our next topic...
->>>>>>> origin/main
 # Thinking in React
 
 ### Components
@@ -119,7 +116,7 @@ Lets keep track of the board by using a simple 9 value array.
 For example an empty board would be represented as:
 [0,0,0,   0,0,0,   0,0,0]
 This state:
-![[Pasted image 20240110160715.png|100]]
+
 would be represented as:
 [0,1,0    -1,-1,1,     1,0,0]
 
