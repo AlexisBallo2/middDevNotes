@@ -87,6 +87,8 @@ return(
 //If randNum = 7
 //Renders "This is the result of adding 2 to 7: 9"
 ```
+**Challenge:** Using an object that stores your first name, college year, and hometown, write and render a JSX expression that introduces yourself.
+
 Now that we have functionality introduced, there's really no limit on how we can organize our website! This process of introducing OUR OWN code and functionality to JSX brings us into our next topic...
 # Thinking in React
 
