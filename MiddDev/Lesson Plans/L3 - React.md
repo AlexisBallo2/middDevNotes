@@ -1,7 +1,98 @@
-Now that we understand the basics of JS, we can start to learn how to display information using our JS framework. For running our frontend, the framework uses "React." Today we will teach you how to begin thinking in React. 
+Now that we understand the basics of JS, we can start to learn how to display information using our JS framework. For running our frontend, the framework uses "React." Today we will teach you how to begin thinking in React...
 
 # JSX
 
+<<<<<<< HEAD
+=======
+### Structuring
+At it's core, JSX is a tool that React uses to maintain order in your app. JSX makes up the most "top level" code that we will be writing, it is the skeleton that holds all of the website elements together, telling the computer what goes where, specifies formats, and how each element should interact with one another.
+
+For any element to be properly turned into website-ready code, it must be wrapped in a "tag". Tags are defined as the pairs of "<" ">" braces, with the actual rendered content being in between the pairs. 
+
+Some basic examples are:
+```
+<div> I am inside a div tag! </div>
+<h1> I am inside a header tag! </h1>
+<p> I am inside a paragraph tag! <p>
+
+//Renders:
+//I am inside a div tag!
+//I am inside a header tag!
+//I am inside a paragraph tag!
+```
+Already, you might realize that a website where we have all elements inside a single tag would be incredibly boring! This is where NESTING comes in, allowing us to place JSX elements inside of one another.
+```
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+<div>
+```
+IMPORTANT: When nesting elements, there can only ever be ONE SINGLE all-encapsulating tag.
+```
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+	<p> I am inside a paragraph tag AND a div tag! </p>
+<div>
+```
+This will not run. We need a tag that contains both div elements:
+```
+<div>
+	<h1> I am inside a header tag AND a div tag! </h1>
+	<p> I am inside a paragraph tag AND a div tag! </p>
+<div>
+
+<div>
+	<h1> I am also inside a header tag AND a div tag! </h1>
+	<p> I am also inside a paragraph tag AND a div tag! </p>
+<div>
+```
+
+Lastly, for any JSX element that we want to render, it must be added to the "return" statement of our app. In React, this would be the return statement of our "app.js" file. Multi-line JSX elements need to be wrapped in parentheses to render, like so:
+
+```
+return (
+	<div>
+		<h1> I am inside a header tag AND a div tag! </h1>
+		<p> I am inside a paragraph tag AND a div tag! </p>
+	<div>
+)
+
+```
+### Functions and Logic
+JSX allows us to add functionality into our website by allowing us to directly render the outcomes of desired functions or other code we've written using the "{}" braces. For example:
+```
+const number = 5
+return (
+	<div>
+		<h1> This is a number {number} </h1>
+	<div>
+)
+
+//Renders to: "This is a number 5"
+```
+
+We can also call functions inside of here as well! Consider a function that adds 2 to any random number between 1-10:
+
+```
+const randNum = Math.floor(Math.random() * 11)
+const addTwo = (randNum) => {
+	return randNum + 2
+}
+
+return(
+	<div>
+		<h1> 
+			This is the result of adding 2 to {randNum}: {addTwo} 
+		</h1>
+	<div>
+)
+
+//If randNum = 7
+//Renders "This is the result of adding 2 to 7: 9"
+```
+**Challenge:** In your "page.js" file, using an object that stores your first name, college year, and hometown, write and render a JSX expression that introduces yourself.
+
+Now that we have functionality introduced, there's really no limit on how we can organize our website! This process of introducing OUR OWN code and functionality to JSX brings us into our next topic...
+>>>>>>> origin/main
 # Thinking in React
 
 ### Components
