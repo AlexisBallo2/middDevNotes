@@ -19,20 +19,20 @@ Some basic examples are:
 //I am inside a paragraph tag!
 ```
 Already, you might realize that a website where we have all elements inside a single tag would be incredibly boring! This is where NESTING comes in, allowing us to place JSX elements inside of one another.
-```h
+```html
 <div>
 	<h1> I am inside a header tag AND a div tag! </h1>
 <div>
 ```
 IMPORTANT: When nesting elements, there can only ever be ONE SINGLE all-encapsulating tag.
-```
+```html
 <div>
 	<h1> I am inside a header tag AND a div tag! </h1>
 	<p> I am inside a paragraph tag AND a div tag! </p>
 <div>
 ```
 This will not run. We need a tag that contains both div elements:
-```
+```html
 <div>
 	<h1> I am inside a header tag AND a div tag! </h1>
 	<p> I am inside a paragraph tag AND a div tag! </p>
@@ -46,7 +46,7 @@ This will not run. We need a tag that contains both div elements:
 
 Lastly, for any JSX element that we want to render, it must be added to the "return" statement of our app. In React, this would be the return statement of our "app.js" file. Multi-line JSX elements need to be wrapped in parentheses to render, like so:
 
-```
+```html
 return (
 	<div>
 		<h1> I am inside a header tag AND a div tag! </h1>
@@ -57,7 +57,7 @@ return (
 ```
 ### Functions and Logic
 JSX allows us to add functionality into our website by allowing us to directly render the outcomes of desired functions or other code we've written using the "{}" braces. For example:
-```
+```html
 const number = 5
 return (
 	<div>
@@ -70,7 +70,7 @@ return (
 
 We can also call functions inside of here as well! Consider a function that adds 2 to any random number between 1-10:
 
-```
+```jsx
 const randNum = Math.floor(Math.random() * 11)
 const addTwo = (randNum) => {
 	return randNum + 2
@@ -122,7 +122,7 @@ would be represented as:
 
 State allows us to manage variables and the "state" of the application at a point in time. The most common way we will manage state is with the `useState` hook provided to us by our nextjs framework. Consider the code block below
 
-```js
+```jsx
 function Box() {
 	const [isChecked, setIsChecked] = useState(false)
 	if (isChecked) {
@@ -143,7 +143,7 @@ function Box() {
 Here, our "Box" component has a state variable named "isChecked". If it's true, we return a "checked", otherwise, we return a "not checked". 
 
 To update our state we use the "setIsChecked()" function:
-```js
+```jsx
 function Box() {
 	const [isChecked, setIsChecked] = useState(false)
 	if (isChecked) {
