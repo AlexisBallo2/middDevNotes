@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/Projects/MiddDash/MiddDash.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/Projects/MiddDash/MiddDash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/Projects/MiddDash/MiddDash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md"
+                "file": "MiddDev/Projects/MiddDash/MiddDash.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "111fc901874b4168",
   "lastOpenFiles": [
+    "MiddDev/MiddDev - Home.md",
+    "MiddDev/Lesson Plans/L3 - React.md",
     "MiddDev/Lesson Plans/L4 - API development.md",
     "MiddDev/Lesson Plans/L2 - Foundations of JS.md"
   ]
