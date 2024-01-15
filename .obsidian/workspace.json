@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/Lesson Plans/L5 - Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/Lesson Plans/L5 - Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md",
+                "file": "MiddDev/Lesson Plans/L5 - Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MiddDev/Lesson Plans/L3 - React.md"
+                "file": "MiddDev/Lesson Plans/L5 - Databases.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "23a0279836b57d4e",
   "lastOpenFiles": [
+    "MiddDev/Lesson Plans/L4 - API development.md",
+    "MiddDev/Lesson Plans/L3 - React.md",
     "MiddDev/Lesson Plans/L2 - Foundations of JS.md",
     "MiddDev/Lesson Plans/L1 - Intro to Git.md",
-    "MiddDev/Lesson Plans/L3 - React.md",
     "MiddDev/Lesson Plans/L5 - Databases.md",
-    "MiddDev/Lesson Plans/L4 - API development.md",
     "MiddDev - Home.md",
     "gitignore",
     "Pasted image 20240105094505.png",
