@@ -173,3 +173,9 @@ Props allow us to pass information from one component to another.
 State is the current information stored only in that component. 
 
 ![[Pasted image 20240105094505.png]]
+
+
+
+See `reactIntro4/page.js` where we lift the state to the board, and pass the props to the components:
+
+Modify our Square component to take an "isChecked" and "set"
