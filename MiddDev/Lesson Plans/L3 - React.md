@@ -227,3 +227,29 @@ And finally we can change how we call the Square component:
 
 
 
+# useEffect
+
+The useEffect hook allows us to write code that runs only when we specifically tell it to. 
+The basic structure is:
+```jsx
+useEffect(()=> {
+	// do something
+},[paramsList])
+```
+We see it is a function as a variable followed by an array. 
+
+The code will run EVERYTIME something in the array changes. For example if we have 
+
+```jsx
+useEffect(()=> {
+	console.log(number)
+},[number])
+```
+Then every time we increment number, it will be console logged. Be careful not to change the "number" variable within the useEffect block, as it will cause an infinite loop. 
+
+
+
+in `reactIntro6/page.js` we see this code: 
+```jsx
+
+```
