@@ -198,3 +198,32 @@ function Square({isChecked, setSquare}) {
 }
 ```
 
+Now lets set a board state in the Board component: 
+
+```jsx
+function Board() {
+	const [checkState, setCheckState] = useState([0,0,0,0,0,0,0,0,0])
+	...
+```
+
+We can add a function to handle modifying a square:
+
+```jsx
+const updateState = (i) => {
+	let tempBoardState = [...checkState]
+	if(tempBoardState[i] === 0){
+		tempBoardState[i] = 1
+	} else {
+		tempBoardState[i] = 0
+	}
+	setCheckState(tempBoardState)
+}
+```
+
+And finally we can change how we call the Square component: 
+```jsx
+<Square isChecked = {checkState[0]} setSquare = {() => {updateState(0)}} />
+```
+
+
+
