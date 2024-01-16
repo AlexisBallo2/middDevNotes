@@ -251,5 +251,15 @@ Then every time we increment number, it will be console logged. Be careful not t
 
 in `reactIntro6/page.js` we see this code: 
 ```jsx
-
+function Square({number, isChecked, setSquare}) {
+	useEffect(() => {
+		console.log("reRendered!", number )
+	}, [isChecked])
+	...
+	
 ```
+
+Here, every time "isChecked" changes, we will console log the square number!
+
+
+We will later use this to only check the board state for winning combinations after a move is made. 
