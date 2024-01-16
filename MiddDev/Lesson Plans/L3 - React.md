@@ -116,9 +116,10 @@ Lets keep track of the board by using a simple 9 value array.
 For example an empty board would be represented as:
 [0,0,0,   0,0,0,   0,0,0]
 This state:
+![[Pasted image 20240116112231.png|100]]
 
 would be represented as:
-[0,1,0    -1,-1,1,     1,0,0]
+[0,1,1    1,-1,0,     0,0,1]
 
 State allows us to manage variables and the "state" of the application at a point in time. The most common way we will manage state is with the `useState` hook provided to us by our nextjs framework. Consider the code block below
 
