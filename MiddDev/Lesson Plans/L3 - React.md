@@ -178,4 +178,23 @@ State is the current information stored only in that component.
 
 See `reactIntro4/page.js` where we lift the state to the board, and pass the props to the components:
 
-Modify our Square component to take an "isChecked" and "set"
+Modify our Square component to take an "isChecked" (will tell us to mark the square as checked) and a "setSquare" (a function we will execute when the square is clicked) prop. 
+
+```jsx
+function Square({isChecked, setSquare}) {
+
+	if (isChecked) {
+		return (
+			<div onClick = {() => setSquare()} className = "w-10 h-10 border-black border-2 "> 
+				X
+			</div>
+		)
+	} else {
+		return (
+			<div onClick = {() => setSquare()} className = "w-10 h-10 border-black border-2 "> 
+			</div>
+		)
+	}
+}
+```
+
