@@ -20,6 +20,8 @@ this will start a local version of the website, and will allow you to access the
 
 # Diving in
 
+<div style = "background-color: #fff8a6; text-align:center; border-radius: 10px; padding: 10px 0 10px 0;">File: app/intro/page.js <br/> Server: <a href = "https://localhost:3000/intro">https://localhost:3000/intro</a></div>
+
 Now we can get started actually working in JS. Navigate to the file `app/intro/page.js`. Like we said before - you can ignore a majority of the files. Only focus were we are currently writing code.
 
 In this file you should see:

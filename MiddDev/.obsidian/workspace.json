@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "e37509086ebf3160",
+    "id": "8404900c47597512",
     "type": "split",
     "children": [
       {
-        "id": "ab07447a16b8b2c4",
+        "id": "306fb9b01709abe5",
         "type": "tabs",
         "children": [
           {
-            "id": "73657727cdd06b6a",
+            "id": "3330a88820066d3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lesson Plans/L3 - React.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "73d597c8965e07cf",
+    "id": "54f16909ed595b41",
     "type": "split",
     "children": [
       {
-        "id": "bb91d0cec89e0ddd",
+        "id": "e2365fd614d6a547",
         "type": "tabs",
         "children": [
           {
-            "id": "71fa94011406d1f3",
+            "id": "4cdd0f320734c8c6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "010c3fb3a6743029",
+            "id": "c86d2cdb9a2f7c53",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "8e8464899812c6e5",
+            "id": "1e1db5d3c78b2c90",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "ca42425f4dc6ef72",
+    "id": "eeb78e12566cf518",
     "type": "split",
     "children": [
       {
-        "id": "70830c4c2f970742",
+        "id": "7b2a3daae6247979",
         "type": "tabs",
         "children": [
           {
-            "id": "ad806f1bd924a046",
+            "id": "8e4d51e83023182f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Plans/L3 - React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "f628ad4bb91c5a1f",
+            "id": "9d35e6b8a459721c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Plans/L3 - React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4a29693db809422c",
+            "id": "3d5d32050d941bd6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "bea3d8b67f448f01",
+            "id": "02c755296b7bb77a",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lesson Plans/L3 - React.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -138,19 +130,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "73657727cdd06b6a",
+  "active": "3330a88820066d3b",
   "lastOpenFiles": [
-    "Lesson Plans/L4 - API development.md",
-    "Attachments/Pasted image 20240116112231.png",
-    "Lesson Plans/L3 - React.md"
+    "Lesson Plans/L3 - React.md",
+    "Lesson Plans/L5 - Databases.md"
   ]
 }
