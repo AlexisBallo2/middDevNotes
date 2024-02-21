@@ -41,9 +41,20 @@ Now a new tab should open with the words "Hello world"
 # HTML basics
 
 ## The \<body></body\>
+
+### Tags
 Here you put all the content you want visible. We can think of this as a normal text editor, but with special "tags" that modify text differently. 
 
 Ex if we replace "hello world" with <h1\></h1\>
+Notice how the text is different
+![[Pasted image 20240220193008.png]]
+These are "semantic tags" and describe what is often enclosed in them.
+Ex other semantic tags
+- h1 (first subheading)
+- h2 (second subheading)
+- h3 (third subheading)
+- p (paragraph)
+
 
 
 
