@@ -1,12 +1,12 @@
 
-
-# 1: Make a new folder for your project
+# Setup
+## 1: Make a new folder for your project
 
 Using the file browser on your computer, create a new folder. Open that folder in vscode:
 ![[Pasted image 20240220182746.png]]
 There should be no files in the folder
 
-# 2: Create first HTML file
+## 2: Create first HTML file
 
 Create a new index.html file. and past in the following code:
 ```html
@@ -26,7 +26,7 @@ This will be the basic outline that you will use for all plain html files.
 ![[Pasted image 20240220183045.png]]
 
 
-# 3: Install and start the "Live Server" extension
+## 3: Install and start the "Live Server" extension
 
 ![[Pasted image 20240220182837.png]]
 
@@ -46,8 +46,8 @@ Now a new tab should open with the words "Hello world"
 Here you put all the content you want visible. We can think of this as a normal text editor, but with special "tags" that modify text differently. 
 
 Ex if we replace "hello world" with <h1\></h1\>
+![[Pasted image 20240223105414.png]]
 Notice how the text is different
-![[Pasted image 20240220193008.png]]
 These are "semantic tags" and describe what is often enclosed in them.
 Ex other semantic tags
 - h1 (first subheading)
@@ -55,8 +55,17 @@ Ex other semantic tags
 - h3 (third subheading)
 - p (paragraph)
 
-
-
-
 ## The \<head></head\>
-Here you will declare t
+Here you will declare file imports, file attributes, and other things. 
+
+# CSS Basics
+
+Create a new file "index.css" in the same directory as your html file. 
+![[Pasted image 20240223105604.png]]
+
+In your html file, add this line to the 'head' tag:
+```html
+<link rel="stylesheet" type="text/css" href="styles.css" /> 
+```
+
+
