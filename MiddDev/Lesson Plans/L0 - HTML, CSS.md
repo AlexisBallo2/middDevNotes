@@ -56,7 +56,7 @@ Ex other semantic tags
 - p (paragraph)
 
 ## The \<head></head\>
-Here you will declare file imports, file attributes, and other things. 
+Here you will declare file imports, file attributes, and other things. Not super important yet!
 
 # CSS Basics
 
@@ -72,8 +72,32 @@ We can directly add styles to an html page using inline css. To do this, we add 
 ![[Pasted image 20240223110004.png]]
 
 ## Common styles
-Common st
+Common styles include:
+```
+background-color: red;
+border: 1px solid red;
+font-size: 20px;
+height: 100px;
+width: 100px;
+margin-left: 5px;
+border-radius: 5px;
+```
 
+## Classes
+If we have styles that we want to use in multiple places, we can use classes to apply the same styles multiple times. If we had html that looks like:
+```html
+<h1 style = "background-color: red; font-size: 20px; width: 500px; border: 5px solid green">
+	Hello world.
+</h1>
+
+<h1 style = "background-color: red; font-size: 20px; width: 500px; border: 5px solid green">
+	Hello again.
+</h1>
+```
+
+To produce this effect: ![[Pasted image 20240223110707.png]]
+
+If we want to 
 ## Linking CSS to HTML
 Create a new file "index.css" in the same directory as your html file. 
 ![[Pasted image 20240223105604.png]]
