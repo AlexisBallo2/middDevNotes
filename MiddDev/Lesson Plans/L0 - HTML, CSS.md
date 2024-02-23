@@ -60,6 +60,21 @@ Here you will declare file imports, file attributes, and other things.
 
 # CSS Basics
 
+## Inline styles
+
+We can directly add styles to an html page using inline css. To do this, we add the styles as an **attribute** to one of our html tags:
+```html
+<h2 style = "background-color:red;">
+	Hello world.
+</h1>
+```
+
+![[Pasted image 20240223110004.png]]
+
+## Common styles
+Common st
+
+## Linking CSS to HTML
 Create a new file "index.css" in the same directory as your html file. 
 ![[Pasted image 20240223105604.png]]
 
@@ -67,5 +82,14 @@ In your html file, add this line to the 'head' tag:
 ```html
 <link rel="stylesheet" type="text/css" href="styles.css" /> 
 ```
+
+Your head tag should look like this:
+```html
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css" /> 
+</head>
+```
+
+## 
 
 
