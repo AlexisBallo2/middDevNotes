@@ -86,18 +86,48 @@ border-radius: 5px;
 ## Classes
 If we have styles that we want to use in multiple places, we can use classes to apply the same styles multiple times. If we had html that looks like:
 ```html
-<h1 style = "background-color: red; font-size: 20px; width: 500px; border: 5px solid green">
+<h1 style = "background-color: red; font-size: 20px; width: 500px; border: 5px solid green;">
 	Hello world.
 </h1>
 
-<h1 style = "background-color: red; font-size: 20px; width: 500px; border: 5px solid green">
+<h1 style = "background-color: red; font-size: 20px; width: 500px; border: 5px solid green;">
 	Hello again.
 </h1>
 ```
 
 To produce this effect: ![[Pasted image 20240223110707.png]]
 
-If we want to 
+If we want to change the background of the boxes, we would need to MANUALLY update BOTH. We can use CSS classes to help here. 
+
+### 1) Create style tag
+Within the \<head> tag, add a style tag:
+```html
+<head>
+	<style>
+	</style>
+</head>
+```
+
+### 2) Create a class and give it styles within the style tag
+Name our class (in this case "myCustomBackground") and add the styles that we will want to apply whenever we apply "myCustomBackground" to an element.
+
+When you define a class, you must start with a period!!
+
+```html
+<style>
+.myCustomBackground {
+	background-color: red;
+	font-size: 20px;
+	width: 500px;
+	border: 5px solid green;
+}
+</style>
+```
+
+### 3) Apply the class to the html elements
+Delete the styles we had on the \<h1> elements and add class = "myCustomBackgroun"
+
+
 ## Linking CSS to HTML
 Create a new file "index.css" in the same directory as your html file. 
 ![[Pasted image 20240223105604.png]]
