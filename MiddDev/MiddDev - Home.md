@@ -2,7 +2,7 @@ Welcome to the index page of MiddDev. Here you will be able to find information 
 
 # Lessons 
 
-
+1. [[L0 - HTML, CSS]]
 1. [[L1 - Intro to Git]]
 2. [[L2 - Foundations of JS]]
 3. [[L3 - React]]

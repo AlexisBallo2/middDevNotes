@@ -125,14 +125,25 @@ When you define a class, you must start with a period!!
 ```
 
 ### 3) Apply the class to the html elements
-Delete the styles we had on the \<h1> elements and add class = "myCustomBackgroun"
+Delete the styles we had on the \<h1> elements and add class = "myCustomBackground" 
+```html
+<h1 class="myCustomBackground">
+	Hello world.
+</h1>
 
+<h1 class="myCustomBackground">
+	Hello again.
+</h1>
+```
+
+Now if we modify the background color in the class declaration, it updates on both elements!
 
 ## Linking CSS to HTML
+While we can write CSS inline or in a \<style> tag, we often use a separate file to keep things organized. 
 Create a new file "index.css" in the same directory as your html file. 
-![[Pasted image 20240223105604.png]]
+![[Pasted image 20240223111514.png]]
 
-In your html file, add this line to the 'head' tag:
+In your html file, add this line to the \<head> tag:
 ```html
 <link rel="stylesheet" type="text/css" href="styles.css" /> 
 ```
@@ -141,9 +152,47 @@ Your head tag should look like this:
 ```html
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css" /> 
+	<style>
+		.myCustomBackground {
+			background-color: red;
+			font-size: 20px;
+			width: 500px;
+			border: 5px solid green;
+		}
+	</style>
 </head>
 ```
 
-## 
+Copy and paste everything in the \<style> tag to the new "style.css" and delete the \<style> tag:
+
+index.html:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    </head>
+    <body>
+        <h1 class="myCustomBackground">
+            Hello world.
+        </h1>
+
+        <h1 class="myCustomBackground">
+            Hello again.
+        </h1>
+
+    </body>
+</html>
+```
+
+styles.css:
+```css
+.myCustomBackground {
+    background-color: red;
+    font-size: 20px;
+    width: 500px;
+    border: 5px solid green;
+}
+```
 
 
