@@ -2,17 +2,13 @@ Welcome to the index page of MiddDev. Here you will be able to find information 
 
 # Lessons 
 
-1. [[L0 - HTML, CSS]]
-1. [[L1 - Intro to Git]]
-2. [[L2 - Foundations of JS]]
-3. [[L3 - React]]
-4. [[L4 - API development]]
-5. [[L5 - Databases]]
-6. NextJs
-	1. What is NextJs
-	2. API development
-	3. Frontend routing
-
+1. [[L1 - HTML, CSS]]
+2. [[L2 - Intro to Git]]
+3. [[L3 - Foundations of JS]]
+4. [[L4 - React]]
+5. [[L5 - API development]]
+6. [[L5 - Databases]]
+7. NextJs
 
 # Active Projects
 [[MiddDash]]
