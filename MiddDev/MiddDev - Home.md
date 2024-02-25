@@ -1,5 +1,7 @@
 Welcome to the index page of MiddDev. Here you will be able to find information on past lessons, current project, and other misc items.
 
+Form to submit a project proposal [here](https://docs.google.com/forms/d/e/1FAIpQLSfrJBKZuHomjpRFPf6ZYFg2WrsDb9WepuOrWB8-_lGqkVhcQA/viewform)
+
 # Lessons 
 
 1. [[L1 - HTML, CSS]]
@@ -14,3 +16,4 @@ Welcome to the index page of MiddDev. Here you will be able to find information 
 [[MiddDash]]
 
 # Sessions and meeting notes
+[[02_25 - Meeting 1]]
