@@ -196,3 +196,159 @@ styles.css:
 ```
 
 
+# Making a Personal Website
+
+Today we will make a personal website that looks like this: 
+![[Pasted image 20240303123315.png]]
+Start by linking your stylesheet and getting your initial html file setup:
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />     
+	</head>
+	
+	<body>
+	</body>
+</html>
+```
+
+
+In your body add a new "div" with two "div" elements inside. Add some text inside the tags so we can see how they are rendered
+```html
+<body>
+        <div class="title">
+            <div>
+				DIV 1
+            </div>
+
+
+            <div>
+				DIV 2
+            </div>
+        </div>
+	</body>
+```
+
+Looking at the devtools: 
+![[Pasted image 20240303123803.png]]
+We want the inner divs to show in the same line so we will use flex. Add this css:
+```css
+.title {
+    display: flex;
+    flex-direction: row;
+}
+```
+
+Looking at the devtools: 
+![[Pasted image 20240303123923.png]]
+
+In the devtools, if we hover over the `div class="title"`:
+![[Pasted image 20240303124005.png]]
+
+The divs show up like this: 
+![[Pasted image 20240303124041.png]]
+The purple is the entire flex box, and the divs are the items within the box.
+
+Lets center them. Add `justify-content:center;` to your `.title` class. 
+
+![[Pasted image 20240303124147.png]]
+
+
+Lets replace the filler text with a header `h1`  for your name and and `img` for your headshot:
+
+```html
+<body>
+        <div class="title">
+            <div>
+                <h1>
+                    Alexis Ballo
+                </h1>
+            </div>
+
+
+            <div>
+                <img src = "https://media.licdn.com/dms/image/D4D03AQH2xpUjr9hxsA/profile-displayphoto-shrink_800_800/0/1677894330553?e=1715212800&v=beta&t=L5uxVv8c4lrBneWCrnoFPBK89RC6KkNDfVzuNfWjtJQ" width = "400px" />
+            </div>
+        </div>
+	</body>
+```
+
+![[Pasted image 20240303124854.png]]
+
+Lets add some more personal info. Add a h2 under the h1: 
+```html
+
+<body>
+        <div class="title">
+            <div>
+                <h1 class = "myName">
+                    Alexis Ballo
+                </h1>
+                <h2 class="contactInfo">
+                    aballo@middlebury.edu | 443-401-7876
+                </h2>
+            </div>
+
+
+            <div>
+                <img src = "https://media.licdn.com/dms/image/D4D03AQH2xpUjr9hxsA/profile-displayphoto-shrink_800_800/0/1677894330553?e=1715212800&v=beta&t=L5uxVv8c4lrBneWCrnoFPBK89RC6KkNDfVzuNfWjtJQ" width = "400px" />
+            </div>
+        </div>
+	</body>
+```
+
+```css
+.contactInfo {
+    font-size: 25px;
+    text-align: center;
+}
+```
+
+![[Pasted image 20240303125057.png]]
+
+Flex box is cool because we can control where in the flew-row items are placed. By default the items within the box are placed at the top, but we can add `align-items: center;` to our .title class:
+```css
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+```
+
+![[Pasted image 20240303125300.png]]
+
+Finally lets center all of the text in our left half. Add the `personalInfo` class to the left div:
+```html
+<body>
+        <div class="title">
+            <div class = "personalInfo">
+                <h1 class = "myName">
+                    Alexis Ballo
+                </h1>
+                <h2 class="contactInfo">
+                    aballo@middlebury.edu | 443-401-7876
+                </h2>
+            </div>
+
+
+            <div>
+                <img src = "https://media.licdn.com/dms/image/D4D03AQH2xpUjr9hxsA/profile-displayphoto-shrink_800_800/0/1677894330553?e=1715212800&v=beta&t=L5uxVv8c4lrBneWCrnoFPBK89RC6KkNDfVzuNfWjtJQ" width = "400px" />
+            </div>
+        </div>
+	</body>
+```
+
+And give .personalInfo styles:
+```css
+.personalInfo {
+    text-align: center;
+}
+```
+
+
+Boom:
+
+
+![[Pasted image 20240303125445.png]]
