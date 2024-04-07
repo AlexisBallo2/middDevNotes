@@ -10,7 +10,7 @@ Form to submit a project proposal [here](https://docs.google.com/forms/d/e/1FAIp
 4. [[L4 - React]]
 5. [[L5 - API development]]
 6. [[L5 - Databases]]
-7. NextJs
+7. [[L6 - Next.js]] 
 
 # Active Projects
 [[MiddDash]]
