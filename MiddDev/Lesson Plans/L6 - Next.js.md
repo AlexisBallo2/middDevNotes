@@ -180,3 +180,26 @@ export default function RootLayout({ children }) {
 Now, the NavBar will be shown on EVERY PAGE: 
 ![[Pasted image 20240410221945.png]]
 Lets add styling to make it nicer:
+
+
+`styles/NavBar.module.css`: 
+
+```css
+
+.container {
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+```
+
+`components/NavBar.js`: 
+![[Pasted image 20240410222735.png]]
+
