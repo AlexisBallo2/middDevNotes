@@ -109,4 +109,34 @@ export default function Home() {
 ```
 
 
-For Next.js - we import styles by selecting the classname as an attribute of the styles that we imo
+For Next.js - we import styles by selecting the classname as an attribute of the styles that we import, basically just doing `className = {styles.[[yourClassName]]}`
+
+
+
+# Routing
+
+The index page that we show is the `page.js`
+Each route must have a `page.js`, but the directory allows you to determine the route. For example: if we want to show info on the `/portfolio` page - we would place a page.js file at `portfolio/page.js`
+![[Pasted image 20240410221139.png|200]]
+
+```jsx
+
+export default function PortfolioPage() {
+    return (
+        <div>
+            <h1>
+                This is my portfolio
+            </h1>
+
+        </div>
+    )
+}
+```
+
+# Navbar
+
+We can make components that are rendered on every page. 
+In the `src/` make a new folder called `components`:
+![[Pasted image 20240410221316.png|200]]
+
+Create a new component titled NavBar.js (MUST BE CAPITAL FIRST LETTER):
