@@ -201,5 +201,29 @@ Lets add styling to make it nicer:
 ```
 
 `components/NavBar.js`: 
+```jsx
+import styles from "../styles/NavBar.module.css"
+
+export default function NavBar() {
+
+    return (
+        <div className={styles.container}>
+            <a href = "/" className={styles.item}>
+                Home
+            </a>
+            <a href = "/portfolio" className={styles.item}>
+                Portfolio 
+            </a>
+        </div>
+    )
+}
+```
+
+
+Check the site: 
 ![[Pasted image 20240410222735.png]]
+And the portfolio page: 
+![[Pasted image 20240410223015.png]]
+
+
 
