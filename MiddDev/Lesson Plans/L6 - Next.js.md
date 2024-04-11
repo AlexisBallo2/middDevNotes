@@ -81,3 +81,32 @@ Next.js treats all of our "pages" as components - and fills them in the `{childr
 
 # Styling
 In the `/src/` directory - add a `/styles/` folder: 
+![[Pasted image 20240410220441.png|200]]
+Add a HomePage.module.css file in `/styles/`
+![[Pasted image 20240410220537.png|200]]
+
+Add these styles to the file: 
+```css
+.header {
+    background-color: red;
+}
+```
+
+Import this file into the page.js file, and add a header with the new class: 
+```jsx
+import Image from "next/image";
+import styles from "../styles/HomePage.module.css"
+
+export default function Home() {
+  return (
+    <div>
+      <h1 className={styles.header}>
+        Alexis Ballo
+      </h1>
+    </div>
+  );
+}
+```
+
+
+For Next.js - we import styles by selecting the classname as an attribute of the styles that we imo
