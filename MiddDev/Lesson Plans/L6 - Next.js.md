@@ -102,6 +102,8 @@ export default function Home() {
 }
 ```
 
+This gives: 
+![[Pasted image 20240410221916.png]]
 
 For Next.js - we import styles by selecting the classname as an attribute of the styles that we import, basically just doing `className = {styles.[[yourClassName]]}`
 
@@ -175,4 +177,6 @@ export default function RootLayout({ children }) {
 
 ```
 
-Now, the NavBar will be shown on EVERY PAGE. 
+Now, the NavBar will be shown on EVERY PAGE: 
+![[Pasted image 20240410221945.png]]
+Lets add styling to make it nicer:
