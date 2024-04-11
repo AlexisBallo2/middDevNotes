@@ -18,6 +18,8 @@ In the terminal install the node packages that we will need to run the server:
 npm i
 ```
 
+# Basics
+
 Start your development server
 ```shell
 npm run dev
@@ -27,6 +29,7 @@ Open your browser to http://localhost:3000
 
 Your should see this page: 
 ![[Pasted image 20240410215510.png]]
+
 
 This page comes from the "/src/app/page.js" file:
 ![[Pasted image 20240410215544.png]]
@@ -74,3 +77,7 @@ export default function RootLayout({ children }) {
 }
 ```
 
+Next.js treats all of our "pages" as components - and fills them in the `{children}` block. So on the index page, the `{children}` bit will be replaced by our export from our page.js
+
+# Styling
+In the `/src/` directory - add a `/styles/` folder: 
