@@ -1,4 +1,3 @@
-
 1. [[L1 - HTML, CSS]]
 2. [[L2 - Intro to Git]]
 3. [[L3 - Foundations of JS]]
