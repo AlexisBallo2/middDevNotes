@@ -33,7 +33,7 @@ Refer to [[Cracking the Coding Interview.pdf#page=73]]
  for a from 1 to n
 	 for b from 1 to n
 		 for c from 1 to n 
-			 ford from 1 to n
+			 for d from 1 to n
 				 if a^3 + b^3 == c^3 +d^3
 					 print a, b, c, d
 ```
@@ -48,7 +48,7 @@ is there excess work done?
  for a from 1 to n
 	 for b from 1 to n
 		 for c from 1 to n 
-			 ford from 1 to n
+			 for d from 1 to n
 				 if a^3 + b^3 == c^3 +d^3
 					 print a, b, c, d
 ```
@@ -56,8 +56,25 @@ still $O(n^4)$
 
 is there excess work done? 
 - for a, b, c there is only one value of d. so lets solve for it
+$d = \sqrt[3]{a^3 + b^3 - c^3}$
 
-$d = \sqrt{1}{10}$
+```pseudo
+ n = 1000
+ for a from 1 to n
+	 for b from 1 to n
+		 for c from 1 to n 
+			 d = pow(a^3 + b^3 - c^3, 3)
+			 print a, b, c, d
+```
+
+now $O(n^3)$
+
+do we have any duplicated work? 
+- current alg looks at all (a,b) pairs then all (c,d) pairs that match
+	- for each of the (a,b) pairs, lets save what $a^3 + b^3$ equals, and then use that value for the $c^3 + d^3$ 
+
+
+
 
 
 
